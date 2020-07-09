@@ -1,0 +1,22 @@
+ul > li{
+    list-style-type: none;
+    display: inline;
+}
+.foot{
+    justify-content: space-between;
+}
+.inline{
+    display: inline;
+}
+.doctor{
+    height: 100px;
+
+}
+.head{
+    float: right;
+}
+.derecha{
+
+    float: right;
+
+}
