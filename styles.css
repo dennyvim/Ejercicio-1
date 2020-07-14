@@ -1,4 +1,4 @@
-ul > li{
+/* ul > li{
     list-style-type: none;
     display: inline;
 }
@@ -19,7 +19,6 @@ ul > li{
 .derecha{
 
     float: right;
-
 }
 
 .item {
@@ -49,4 +48,28 @@ ul > li{
 
 .content-item > .doctor2 {
     float: left;
+} */
+
+.navBar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;   
+    width: 92%;
+    position: relative;
+}
+
+ul > li {
+    margin: 10px;
+}
+
+ul > li:last-child {
+    position: absolute;
+    right: 0;
+    padding-right: 5px;
+    border-right: 5px solid grey;
 }
