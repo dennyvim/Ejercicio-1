@@ -20,3 +20,16 @@ ul > li{
     float: right;
 
 }
+.img{
+    width: 75px;
+}
+
+.foo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.texto{
+    display: inline;
+    align-items: center;
+}
