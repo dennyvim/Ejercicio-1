@@ -10,6 +10,7 @@ ul > li{
 }
 .doctor{
     height: 100px;
+    display: block;
 
 }
 .head{
@@ -19,4 +20,33 @@ ul > li{
 
     float: right;
 
+}
+
+.item {
+    width: 100%;
+    display: block;
+    position: relative;    
+    box-sizing: border-box;
+    padding: 0 50px;
+}
+
+.item:first-child {
+    text-align: right;        
+}
+
+.item:last-child {
+    text-align: left;
+}
+
+.content-item {
+    width: 50%;    
+    display: inline-block;
+}
+
+.content-item > .doctor1 {
+    float: right;
+}
+
+.content-item > .doctor2 {
+    float: left;
 }
