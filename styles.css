@@ -1,4 +1,4 @@
-ul > li{
+/* ul > li{
     list-style-type: none;
     display: inline;
 }
@@ -10,6 +10,7 @@ ul > li{
 }
 .doctor{
     height: 100px;
+    display: block;
 
 }
 .head{
@@ -18,6 +19,54 @@ ul > li{
 .derecha{
 
     float: right;
+}
+
+.item {
+    width: 100%;
+    display: block;
+    position: relative;    
+    box-sizing: border-box;
+    padding: 0 50px;
+}
+
+.item:first-child {
+    text-align: right;        
+}
+
+.item:last-child {
+    text-align: left;
+}
+
+.content-item {
+    width: 50%;    
+    display: inline-block;
+}
+
+.content-item > .doctor1 {
+    float: right;
+}
+
+.content-item > .doctor2 {
+    float: left;
+} */
+
+.navBar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;   
+    width: 92%;
+    position: relative;
+}
+
+ul > li {
+    margin: 10px;
+}
+
 
 }
 .img{
@@ -32,4 +81,11 @@ ul > li{
 .texto{
     display: inline;
     align-items: center;
+}
+ul > li:last-child {
+    position: absolute;
+    right: 0;
+    padding-right: 5px;
+    border-right: 5px solid grey;
+
 }
