@@ -67,9 +67,25 @@ ul > li {
     margin: 10px;
 }
 
+
+}
+.img{
+    width: 75px;
+}
+
+.foo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.texto{
+    display: inline;
+    align-items: center;
+}
 ul > li:last-child {
     position: absolute;
     right: 0;
     padding-right: 5px;
     border-right: 5px solid grey;
+
 }
